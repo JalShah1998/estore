@@ -1,0 +1,18 @@
+import logo from './logo.svg';
+import './App.css';
+import TopNav from './Components/TopNav/topnav';
+import CatNav from './Components/CatNav';
+import MainComponent from './MainComponent';
+
+
+function App() {
+  return (
+    <div className="App">
+      <TopNav/>
+      <CatNav/>
+      <MainComponent/>
+    </div>
+  );
+}
+
+export default App;
