@@ -35,4 +35,10 @@
             @include underline-transition(0.4);
         }
     }
+    .price-filter-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
+
